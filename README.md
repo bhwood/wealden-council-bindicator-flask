@@ -1,4 +1,3 @@
-```markdown
 # Wealden Council Bindicator
 
 ## Functionality
@@ -36,4 +35,3 @@
 3. Open a web browser and go to `http://127.0.0.1:5000` to access the application.
 
 4. You should see the bin collection information displayed in a webpage.
-```
