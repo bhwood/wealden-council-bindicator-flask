@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin Collection Info</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Bin Collection Info</h1>
+        <p>Todays Date: {{ current_date }}</p>
+        <p>Your next bin collection date is: {{ next_bin }}</p>
+        <p>Your next recycling collection date is: {{ next_recycling }}</p>
+        <p>Next collection type: {{ next_bin_type }}</p>
+
+    </div>
+</body>
+</html>
